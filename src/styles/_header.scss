@@ -1,0 +1,35 @@
+.head{
+    font-family: 'TrajanPro-Bold', serif;
+    background-color: #1f1d28;
+    color: whitesmoke;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    h1{
+        flex:1;
+        margin-left: 1rem;
+    }
+    .search{
+        margin-right: 2rem;
+        input{
+            padding: .5rem;
+            width: 200px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            background-color: #131217;
+            color: whitesmoke;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 400;
+            transition: .2s ease-in-out;
+            &:focus{
+                width: 300px;
+            }
+        }
+    }
+    img{
+        flex: 1;
+        width: 40px;
+        margin-left: 1rem;
+    }
+}

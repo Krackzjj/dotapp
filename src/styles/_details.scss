@@ -1,0 +1,65 @@
+video{
+    width: 500px;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    color: whitesmoke;
+    .video-box{
+        text-align: center;
+        grid-column: 3/4;
+        
+
+    }
+    .box-hero{
+        background-color: #1f1d28;
+        margin: 1rem;
+        border-radius: 10px;
+        border: 1px solid #333333;
+        height: fit-content;
+        padding: 1rem;
+        ul.role{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            list-style: none;
+            li{
+                font-weight: 600;
+                color: orangered;
+            }
+        }
+        .profil{
+            display: flex;
+            align-items: center;
+            margin-left: 3rem;
+            h3{
+                font-size: 2rem;
+            }
+            .ico{
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                object-position: center;
+                border: 1px solid #333333;
+                margin-right: .4rem;
+            }
+        }
+        .attr{
+            display: flex;
+            align-items: center;
+            margin-left: 6rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid #323232;
+            img{
+                margin-right: .5rem;
+                width: 30px;
+            }
+        }
+    }
+    .ab{
+        width: 500px;
+        background-color: red;
+        position: absolute;
+    }
+}

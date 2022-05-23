@@ -1,0 +1,19 @@
+.container{
+    width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    .card{
+        transition: .2s ease-in-out;
+        margin: -.5rem;
+        &:hover{
+            transform: scale(1.2);
+        }
+        img{
+            border: 1px solid black;
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+}
